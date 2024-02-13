@@ -17,6 +17,6 @@ let BC = dist(x2In, y2In, x3In, y3In);
 let Perimeter = (AB + AC + BC);
 }
 
-function dist(x1In, y1In, x2In, y2In) {
-return Math.sqrt((x2In - x1In)** 2 + (y2In - y1In) ** 2);
+function dist(x1, y1, x2, y2) {
+return Math.sqrt((x2 - x1)*y1+ (y2 - y1) ** 2);
 }
