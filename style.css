@@ -5,6 +5,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
+button:hover {
   border-radius: 160px;
 }
